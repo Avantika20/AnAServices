@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaisei+Decol&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+
+<!-- Navbar -->
+<div class="w3-top" >
+ <div class="w3-bar w3-theme-d2 w3-left-align" >
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" id="home" class="w3-bar-item" style="color: whitesmoke;"><i class="fa fa-home w3-margin-right"></i>A&A Services</a>
+  <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="#services" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Services</a>
+ 
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Plans <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="#family" class="w3-bar-item w3-button">Family Plan</a>
+      <a href="#premium" class="w3-bar-item w3-button">Premium</a>
+      <a href="#gold" class="w3-bar-item w3-button">Gold</a>
+
+    </div>
+  </div>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button">About</a>
+    <a href="#services" class="w3-bar-item w3-button">Services</a>
+    <a href="#plans" class="w3-bar-item w3-button">Plans</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="bg.jpg" alt="" style="width:100%;min-height:350px;max-height:600px;opacity: 95%;">
+  <div class="w3-container w3-display-middle w3-margin-bottom">  
+    <button id="a-serve">A&A SERVICES</button>
+  </div>
+</div>
+
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="about">
+<h2>About</h2>
+<p id="aboutus">  
+    Welcome to A&A Services, where teamwork meets care! We’re Avantika and Akshar, a dynamic sibling duo committed to making life easier and more enjoyable for our parents. Whether it’s helping around the house, organizing special moments, or simply being there when you need us, we take pride in delivering every service with enthusiasm and a personal touch. At A&A Services, it’s not just about getting things done—it’s about making every task a little brighter. Your wish is our command!</p>
+<br><br>
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="services">
+
+<div >
+<h2>Our Services</h2>
+<p>To book any service, kindly send us a message with details like venue, date and time in the contact section and we will get back to you asap! <br>
+If incase you are facing any error, kindly call our number and book your service!</p> <br>
+<p>COUPONS ARE VALID FOR ALL SERVICES THAT ARE PART OF YOUR PLAN</p>
+</div>
+
+<section style="margin-top: -50px; height: 550px;">
+    <div id="cCarousel">
+      <div class="arrow" id="prev"><i class="fa fa-chevron-left"></i></div>
+      <div class="arrow" id="next"><i class="fa fa-chevron-right"></i></div>
+  
+      <div id="carousel-vp" style="margin-top: 100px;">
+        <div id="cCarousel-inner">
+  
+          <article class="cCarousel-item">
+        
+                <div class="w3-card w3-white" style=" height: 600px;">
+                  <img src="https://rootbridges.com/cdn/shop/articles/What_Are_The_Basic_Needs_Of_The_Indoor_Plants_To_Survive_1024x.jpg?v=1641212409" alt="Snow" style="width:100%">
+                  <div class="w3-container">
+                  <h3>Watering Plants</h3>
+                  <p>Keeping your green friends hydrated and healthy, one plant at a time.</p>
+                  <p>Rs. 1 per plant</p>
+                 
+                  </div>
+                </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://content.jdmagicbox.com/comp/def_content/car-cleaning-services/tyceu6huwm-car-cleaning-services-9-kewsz.jpg" alt="Lights" style="width:100%">
+                <div class="w3-container">
+                <h3>Car Cleaning Service</h3>
+                <p>Say goodbye to dust and mess—we’ll make your car sparkle.</p>
+                <p><b>Deep Clean-</b> Includes inside and out cleaning: <b>Rs. 200</b></p>
+                <p><b>Semi Clean-</b> Includes only outside dusting:<b> Rs. 100</b></p>
+                </div>
+              
+              </div>
+          </article>
+  
+          <article class="cCarousel-item">
+        
+                <div class="w3-card w3-white" style=" height: 600px;">
+                  <img src="https://lirp.cdn-website.com/fc61f1c2/dms3rep/multi/opt/Ideal+outdoor+movie+night-1920w.png" alt="Mountains" style="width:100%">
+                  <div class="w3-container">
+                <h3>Movie Night Setup</h3>
+                <p>From snacks to seating, we’ll ensure your movie nights are picture-perfect.</p>
+                <p><b>Indoor Setup -</b>Rs. 70</p>
+                <p><b>Outdoor Setup -</b>Rs. 150</p>
+                  
+                  </div>
+                </div>
+          </article>
+  
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://experimedia.net/wp-content/uploads/2023/12/image-155-1024x701.jpeg.webp" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Music DJ Service</h3>
+              <p>Need the right vibes? We’ll curate the perfect playlist for any occasion.</p>
+              <p><b>Indoor Setup</b> Rs. 50</p>
+              <p><b>Outdoor Setup</b> Rs. 70</p>
+                
+                </div>
+              </div>
+          </article>
+        
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://cdn.shopify.com/s/files/1/0520/4983/8237/files/Exfoliates_Cleanses_the_Scalp.webp?v=1683122809" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Massage Service</h3>
+              <p>Enjoy a calming massage to ease stress and bring relaxation to your day.</p>
+              <p><b>Full Body Massage</b> Rs. 300</p>
+              <p><b>Head and Shoulder</b> Rs. 100</p>
+              <p><b>Foot</b> Rs. 100</p>
+          </article>
+  
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://i.shgcdn.com/0765855b-156c-45fe-8f0a-085d29913ff9/-/format/auto/-/preview/3000x3000/-/quality/lighter/" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Gift Wrapping Service</h3>
+              <p>We’ll turn your presents into beautifully wrapped surprises for any occasion.</p>
+              <p><b></b>Rs. 20 per gift</p>
+          </article>
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://imagecdn.99acres.com/microsite/wp-content/blogs.dir/6161/files/2023/09/Diwali-Decoration-Ideas-for-Living-Room.jpg" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Room Decoration for Special Occasions</h3>
+              <p>Transform any space with our creative decorations, perfect for celebrations.</p>
+              <p><b></b>Rs. 80</p>
+          </article>
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://www.wdsoft.in/wp-content/uploads/2024/06/Arroline-PPT-design-by-wdsoft-scaled.webp" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Webpage/PPT/   Designs</h3>
+              <p>Need a website, presentation, or custom design? We’ve got the skills to bring your ideas to life.</p>
+              <p><b>Webpage</b> Rs. 150</p>
+              <p><b>PPT</b> Rs. 100</p>
+              <p><b>Designs</b> Rs. 80</p>
+          </article>
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="https://blog.fanpagekarma.com/wp-content/uploads/2020/02/social-media-content.png" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Social Media Assistance</h3>
+              <p>Struggling with content? We’ll help you create eye-catching Instagram stories, posts, and reels.</p>
+              <p><b>Post</b> Rs. 50</p>
+              <p><b>Story</b> Rs. 80</p>
+              <p><b>Reel</b> Rs. 190</p>
+          </article>
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="therapy.jpeg" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Therapy Sessions</h3>
+              <p>We hear you! (For Premium or Gold Members Only)</p>
+              <p><b></b> Rs. 30 per hour</p>
+          </article>
+          <article class="cCarousel-item">
+            <div class="w3-card w3-white" style=" height: 600px;">
+                <img src="baby.png" alt="Mountains" style="width:100%">
+                <div class="w3-container">
+              <h3>Babysitting</h3>
+              <p>Available for both pets and humans! (For Gold Members Only)</p>
+              <p><b></b> Rs. 20 per hour</p>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>PRICING</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom" id="family">
+        <ul class="w3-ul w3-border w3-hover-shadow">
+          <li class="w3-theme12" style="background-color: rgb(59, 59, 62); color: white;">
+            <p class="w3-xlarge">Family Plan</p>
+          </li>
+          <li class="w3-padding-16">Upto <b>3 members</b> can be added</li>
+          <li class="w3-padding-16"><b>Flat 10% Off</b> on selected services</li>
+          <li class="w3-padding-16">Get <b>2 coupons</b> every month</li>
+          <li class="w3-padding-16">
+            <h2 class="w3-wide"><i class="fa fa-inr"></i> 50</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-theme-l5 w3-padding-24">
+            <button class="w3-button w3-padding-large" style="background-color: goldenrod;"><i class="fa fa-check"></i> Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <div class="w3-third w3-margin-bottom" id="premium">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Premium</p>
+        </li>
+        <li class="w3-padding-16"><b>Flat 20% Off</b> on selected services</li>
+        <li class="w3-padding-16"><b>1</b> Free Service every month</li>
+        <li class="w3-padding-16"><b>Unlock 1</b> Special Service</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-inr"></i> 60</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-padding-large" style="background-color: goldenrod;"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom" id="gold">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Gold</p>
+        </li>
+        <li class="w3-padding-16"><b>Flat 20% Off</b> on all services</li>
+        <li class="w3-padding-16"><b>2</b> Free services every month</li>
+        <li class="w3-padding-16"><b>Unlock 2</b> Speical Services</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-inr"></i> 80</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-padding-large" style="background-color: goldenrod;"><i class="fa fa-check"></i> Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+   
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-bottombar">Contact Us</span></div>
+
+
+      <p><i class="fa fa-phone w3-xlarge"></i>  +91 98211 79961</p>
+      <p><i class="fa fa-envelope-o w3-xlarge"></i>  avantika.agarwal@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<script src="main.js"></script>
+</body>
+</html>
